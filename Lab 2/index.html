@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Lab 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Home">VV</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Vinayak Vashisth</h1>
+        <p>Computer Science student interested in AI/ML, Web3, and building useful projects.</p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <img src="./photo.jpg" alt="Profile photo" class="avatar" width="220" height="220" />
+        <div>
+          <h2>About Me</h2>
+          <p>I'm a B.Tech CSE (AI/ML) student. I enjoy learning new technologies, solving problems, and exploring cryptocurrency and Web3. Outside tech, I like games, music, and badminton.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul class="card-list">
+          <li class="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio built with semantic HTML and CSS.</p>
+          </li>
+          <li class="card">
+            <h3>Blockademia.live</h3>
+            <p>Blockchain-based educational platform for Web3 learning.</p>
+          </li>
+          <li class="card">
+            <h3>Aptos Project</h3>
+            <p>A no-code LMS dApp built on the Aptos blockchain.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th colspan="3">Tools / Languages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Programming</td>
+                <td>Python</td>
+                <td>Move</td>
+                <td>Solidity</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> codeRED</small>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
