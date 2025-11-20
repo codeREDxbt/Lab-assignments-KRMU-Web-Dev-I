@@ -3,11 +3,13 @@
 This project is an enhancement of the Lab 2 portfolio, incorporating modern CSS layout techniques (Flexbox and Grid), responsive design, and advanced styling.
 
 ## Description
-The portfolio showcases my projects and skills as a Full Stack Developer. It is built using semantic HTML5 and CSS3, focusing on clean code and user experience.
+The portfolio showcases my projects and skills as a Blockchain Developer. It is built using semantic HTML5 and CSS3, focusing on clean code and user experience.
 
 ### Key Features
 - **Flexbox Layout**: Used for the navigation bar and hero section alignment.
 - **CSS Grid**: Implemented for the Skills and Projects sections to create responsive card layouts.
+- **Dark Glassmorphism Theme**: Neon accents with glass-like surfaces using backdrop blur.
+- **Linked Socials**: Footer links wired to GitHub, LinkedIn, and X (Twitter).
 - **Responsive Design**: The site adapts to Mobile, Tablet, and Desktop screens using media queries.
 - **Animations**: Includes keyframe animations for the hero text and profile image, plus hover effects on cards and buttons.
 - **Relative Units**: Used `rem`, `em`, `%`, `vw`, and `vh` for scalable sizing.
