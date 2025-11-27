@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveLotus - Food Delivery App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.5C9.5 5.5 8 9 8 12C8 14.2 9.8 16 12 16C14.2 16 16 14.2 16 12C16 9 14.5 5.5 12 2.5Z" opacity="0.8"/>
+                    <path d="M12 21.5C6.5 20.5 2.5 16.5 2.5 12.5C2.5 9.5 4.5 7.5 6.5 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M12 21.5C17.5 20.5 21.5 16.5 21.5 12.5C21.5 9.5 19.5 7.5 17.5 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="brand-name">LoveLotus</span>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#restaurants">Restaurants</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#cart" class="cart-btn" aria-label="View Cart">🛒 <span class="cart-count">0</span></a>
+                <a href="#login" class="btn btn-secondary">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Delicious Food Delivered To Your Doorstep</h1>
+                    <p class="tagline">Order from your favorite restaurants and get it fast.</p>
+                    <a href="#menu" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80" alt="Rich Paneer Butter Masala with Naan" class="hero-img-placeholder">
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="section">
+            <div class="container">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" class="search-input" placeholder="Search for food, categories, or restaurants...">
+                </div>
+
+                <h2 class="section-title">Browse Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="cat-icon">🍕</div>
+                        <h3>Pizza</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="cat-icon">🍔</div>
+                        <h3>Burger</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="cat-icon">🍣</div>
+                        <h3>Sushi</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="cat-icon">🥗</div>
+                        <h3>Healthy</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="cat-icon">🍰</div>
+                        <h3>Dessert</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="cat-icon">🍜</div>
+                        <h3>Asian</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Menu Section with Sidebar -->
+        <section id="menu" class="section menu-section">
+            <div class="container menu-layout">
+                <aside class="sidebar">
+                    <h3>Filters</h3>
+                    <div class="filter-group">
+                        <h4>Price Range</h4>
+                        <label><input type="checkbox"> $</label>
+                        <label><input type="checkbox"> $$</label>
+                        <label><input type="checkbox"> $$$</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Dietary</h4>
+                        <label><input type="checkbox"> Vegetarian</label>
+                        <label><input type="checkbox"> Vegan</label>
+                        <label><input type="checkbox"> Gluten Free</label>
+                    </div>
+                </aside>
+
+                <div class="menu-content">
+                    <h2 class="section-title">Popular Dishes</h2>
+                    <div class="grid-container menu-grid">
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=60" alt="Margherita Pizza" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Margherita Pizza</h3>
+                                    <span class="price">₹399</span>
+                                </div>
+                                <p class="card-desc">Classic tomato sauce, fresh mozzarella, basil.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=60" alt="Classic Cheeseburger" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Classic Cheeseburger</h3>
+                                    <span class="price">₹299</span>
+                                </div>
+                                <p class="card-desc">Juicy beef patty, cheddar, lettuce, tomato.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=500&q=60" alt="Caesar Salad" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Caesar Salad</h3>
+                                    <span class="price">₹249</span>
+                                </div>
+                                <p class="card-desc">Romaine lettuce, croutons, parmesan, caesar dressing.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=500&q=60" alt="Sushi Platter" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Sushi Platter</h3>
+                                    <span class="price">₹899</span>
+                                </div>
+                                <p class="card-desc">Assorted nigiri and maki rolls.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=500&q=60" alt="Pasta Carbonara" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Pasta Carbonara</h3>
+                                    <span class="price">₹449</span>
+                                </div>
+                                <p class="card-desc">Spaghetti, eggs, pancetta, parmesan cheese.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                        <article class="card menu-card">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=60" alt="Chocolate Cake" class="card-image">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <h3>Chocolate Cake</h3>
+                                    <span class="price">₹199</span>
+                                </div>
+                                <p class="card-desc">Rich chocolate layer cake with ganache.</p>
+                                <button class="btn btn-sm">Add to Cart</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurants Section -->
+        <section id="restaurants" class="section">
+            <div class="container">
+                <h2 class="section-title">Top Restaurants in Delhi NCR</h2>
+                <div class="grid-container restaurant-grid">
+                    <article class="card restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=60" alt="Indian Accent" class="card-image-lg">
+                        <div class="card-body">
+                            <h3>Indian Accent</h3>
+                            <p class="rating">⭐ 4.9 (2500+ reviews)</p>
+                            <p class="cuisine">Modern Indian • The Lodhi, New Delhi</p>
+                        </div>
+                    </article>
+                    <article class="card restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=60" alt="Bukhara" class="card-image-lg">
+                        <div class="card-body">
+                            <h3>Bukhara</h3>
+                            <p class="rating">⭐ 4.8 (3000+ reviews)</p>
+                            <p class="cuisine">North Indian • ITC Maurya, New Delhi</p>
+                        </div>
+                    </article>
+                    <article class="card restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?auto=format&fit=crop&w=600&q=60" alt="Olive Bar & Kitchen" class="card-image-lg">
+                        <div class="card-body">
+                            <h3>Olive Bar & Kitchen</h3>
+                            <p class="rating">⭐ 4.7 (1800+ reviews)</p>
+                            <p class="cuisine">Mediterranean • Mehrauli, New Delhi</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-section-container">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Have questions about your order or want to partner with us? Fill out the form and we'll get back to you.</p>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>123 Foodie Street, Flavor Town</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>support@lovelotus.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form-full" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>LoveLotus</h3>
+                <p>Delivering happiness to your doorstep.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 codeRED. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
