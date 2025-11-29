@@ -40,6 +40,19 @@ Modern portfolio built with semantic HTML5 and advanced CSS (Flexbox/Grid) featu
 - Brand aligned ("VV" top-left) and footer updated to `codeRED`
 - Social links wired: GitHub, LinkedIn, and X (Twitter)
 
+## Lab 4 - JavaScript Quiz Game
+A simple JavaScript quiz game that executes entirely within the browser console, using arrays, loops, conditionals, and functions for user input and feedback.
+
+**Location**: `Lab 4/quiz.js`
+
+### Features
+- Predefined questions stored in an array of objects
+- `runQuiz()` function to handle game logic
+- For loop to iterate through questions
+- User input via `prompt()` with normalization using `toLowerCase()` and `trim()`
+- Immediate feedback with `alert()` for correct/incorrect answers
+- Score tracking and final display
+
 ## Capstone Project - LoveLotus Food Delivery App
 A fully responsive food delivery web application built with semantic HTML5 and modern CSS3 (Flexbox/Grid), featuring glassmorphism design and a unique electric purple & teal color palette.
 
@@ -73,6 +86,7 @@ A fully responsive food delivery web application built with semantic HTML5 and m
 - **Lab 1**: Navigate to `Lab 1/` folder and open `Portfolio.html` in your browser
 - **Lab 2**: Navigate to `Lab 2/` folder and open `index.html` in your browser
 - **Lab 3**: Navigate to `Lab 3/` folder and open `index.html` in your browser
+- **Lab 4**: Navigate to `Lab 4/` folder, open `quiz.js` in a text editor, copy the code, paste into browser console, and run
 - **Capstone**: Navigate to `Capstone/` folder and open `index.html` in your browser
 
 ---
