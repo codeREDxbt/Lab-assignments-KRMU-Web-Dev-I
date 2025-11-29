@@ -16,8 +16,8 @@ A simple JavaScript quiz game that runs entirely in the browser console, featuri
 4. Answer each prompt and view feedback.
 
 ## Questions
-- What is the capital of France? (Paris)
-- What is 5 * 6? (30)
-- Who wrote Romeo and Juliet? (Shakespeare)
-- What is the largest planet in our solar system? (Jupiter)
-- What color is the sky on a clear day? (Blue)
+- What does HTML stand for? (HyperText Markup Language)
+- What is the full form of CSS? (Cascading Style Sheets)
+- Who is the world champion of 2024 F1 season? (Max Verstappen)
+- Which programming language is primarily used for web development scripting? (JavaScript)
+- What does API stand for? (Application Programming Interface)

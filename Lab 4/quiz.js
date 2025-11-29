@@ -1,9 +1,9 @@
 const quizQuestions = [
-  { question: "What is the capital of France?", answer: "paris" },
-  { question: "What is 5 * 6?", answer: "30" },
-  { question: "Who wrote Romeo and Juliet?", answer: "shakespeare" },
-  { question: "What is the largest planet in our solar system?", answer: "jupiter" },
-  { question: "What color is the sky on a clear day?", answer: "blue" }
+  { question: "What does HTML stand for?", answer: "hypertext markup language" },
+  { question: "What is the full form of CSS?", answer: "cascading style sheets" },
+  { question: "Who is the world champion of 2024 F1 season", answer: "max verstappen" },
+  { question: "Which programming language is primarily used for web development scripting?", answer: "javascript" },
+  { question: "What does API stand for?", answer: "application programming interface" }
 ];
 
 function runQuiz() {
